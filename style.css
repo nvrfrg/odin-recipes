@@ -12,6 +12,7 @@ body {
 
 .content {
   flex-grow: 1;
+  display: flex;
 }
 
 .header {
@@ -31,4 +32,24 @@ footer {
   background-color: rgb(216, 216, 216);
   text-align: center;
   padding: 8px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  background-color: rgb(102, 118, 162); 
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color:rgb(224, 224, 224);
+  font-size: 18px;
 }
